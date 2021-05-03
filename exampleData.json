@@ -1,0 +1,29 @@
+{
+  "clientId": {
+    "companyName": "name-of-company",
+    "requirements": {
+      "location": "location",
+      "size": {
+        "desksMin": "10",
+        "desksMax": "20",
+        "sqftMin": "600",
+        "sqftMax": "1000"
+      },
+      "budgetMonthly": "8000",
+      "startDate": "062020",
+      "termLengthMonths": "24"
+    },
+    "contact": [{ "firstName": "Tom", "lastName": "Anderson", "email": "name@email.com", "phone": "07938667219" }],
+    "broker": {
+      "company": "Office Freedom",
+      "contact": { "consultant": "Bob Toor", "email": "name@email.com", "phone": "07837728109" },
+      "referralDate": "16032021",
+      "viewing": [
+        { "date": "04022020", "time": "1230", "status": "complete" },
+        { "date": "12022020", "time": "1315", "status": "cancelled" },
+        { "date": "13022020", "time": "1400", "status": "active" }
+      ]
+    },
+    "Making Moves": { "consultant": "Grant Marcus", "email": "name@email.com", "phone": "07922378819" }
+  }
+}

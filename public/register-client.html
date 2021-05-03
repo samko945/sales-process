@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Register Client</h1>
+    <form action="/register-client" method="post">
+      <label for="cName">Company Name</label>
+      <input type="text" name="cName" id="cName" />
+      <h2>Requirements</h2>
+      <label for="rLocation">Location</label>
+      <input type="text" name="rLocation" id="rLocation" />
+      <h3>Size</h3>
+      <label for="rSizeDesksMin">Desks (min)</label>
+      <input type="text" name="rSizeDesksMin" id="rSizeDesksMin" />
+      <label for="rSizeDesksMax">Desks (max)</label>
+      <input type="text" name="rSizeDesksMax" id="rSizeDesksMax" />
+      <br />
+      <label for="rSqftMin">Sqft (min)</label>
+      <input type="text" name="rSqftMin" id="rSqftMin" />
+      <label for="rSqftMax">Sqft (max)</label>
+      <input type="text" name="rSqftMax" id="rSqftMax" />
+      <br />
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
